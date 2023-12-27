@@ -102,6 +102,11 @@ class HomeDesktop extends StatelessWidget {
                       AnimatedTextKit(
                         animatedTexts: [
                           TyperAnimatedText(
+                            ' UI/UX Designers',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          TyperAnimatedText(
                             'Mobile Application',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
@@ -112,20 +117,22 @@ class HomeDesktop extends StatelessWidget {
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' UI/UX Designers',
+                            'desktop Application',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
+                          TyperAnimatedText(
+                            'Software Services',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          
                           TyperAnimatedText(
                             'Logo Design',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                          TyperAnimatedText(
-                            'Software Service',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
+                          
                           TyperAnimatedText(
                             'A Friend',
                             speed: const Duration(milliseconds: 50),

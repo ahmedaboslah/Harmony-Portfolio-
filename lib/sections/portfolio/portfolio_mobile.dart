@@ -16,10 +16,10 @@ class PortfolioMobileTab extends StatelessWidget {
     return Column(
       children: [
         const CustomSectionHeading(
-          text: "\nPortfolio",
+          text: "\nProjects",
         ),
         const CustomSectionSubHeading(
-          text: "Here are few samples of my previous work :)\n\n",
+          text: "Here are few samples of our previous work :)\n\n",
         ),
         CarouselSlider.builder(
           itemCount: ProjectUtils.titles.length,

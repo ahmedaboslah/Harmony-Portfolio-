@@ -28,6 +28,7 @@ class MyAppState extends State<MyApp> {
         ChangeNotifierProvider(create: (_) => AppProvider()),
         ChangeNotifierProvider(create: (_) => DrawerProvider()),
         ChangeNotifierProvider(create: (_) => ScrollProvider()),
+        
       ],
       child: Consumer<AppProvider>(
         builder: (context, value, _) => MaterialChild(

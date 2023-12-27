@@ -7,6 +7,7 @@ class ServicesUtils {
     StaticUtils.rapid,
     StaticUtils.blog,
     StaticUtils.openSource,
+    StaticUtils.Desktopdev,
   ];
 
   static const List<String> servicesTitles = [
@@ -15,6 +16,7 @@ class ServicesUtils {
     "Web Application Development ",
     "Technical Blog Writing",
     "Backend Development",
+    "Desktop Development"
   ];
 
   static const List<String> servicesDescription = [
@@ -22,5 +24,7 @@ class ServicesUtils {
     "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
     "Empower Your Business with Seamless Web App Solutions\n-Transforming Ideas into Digital Reality\n-Responsive, Intuitive, and Scalable ",
     "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-    "Power Your Web App with Robust Backend Solutions\n- Data Security Meets Performance\n-From Database Design to API Integration\n- Header images and more...!",  ];
+    "Power Your Web App with Robust Backend Solutions\n- Data Security Meets Performance\n-From Database Design to API Integration\n- Header images and more...!", 
+    "Desktop app development with Flutter\n- User-Centric Design\n- Performance Optimization\n- Continuous Support and Maintenance"
+     ];
 }

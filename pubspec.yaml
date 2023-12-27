@@ -16,6 +16,10 @@ dependencies:
 
   # github
   github: ^9.2.0
+  flutter_vector_icons: 
+    git: 
+      url: https://github.com/victoreronmosele/flutter-vector-icons.git
+      ref: v3.0.0
 
   # web related
   flutter_html: any

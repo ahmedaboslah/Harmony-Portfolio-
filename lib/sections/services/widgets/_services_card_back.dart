@@ -26,76 +26,81 @@ class _ServiceCardBackWidget extends StatelessWidget {
           width: AppDimensions.normalize(60),
           child: MaterialButton(
             color: AppTheme.c!.primary,
-            onPressed: () => showDialog(
-                context: context,
-                builder: (contecxt) => AlertDialog(
-                      title: Text(
-                        "Hire Me!",
-                        style: AppText.b2b,
-                      ),
-                      actions: [
-                        TextButton(
-                          onPressed: () => Navigator.pop(context),
-                          child: const Text("Back"),
-                        )
-                      ],
-                      content: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          MaterialButton(
-                            height: 40.0,
-                            onPressed: () => openURL(
-                              'https://api.whatsapp.com/send?phone=923460159889',
+            onPressed: () => openURL(
+                              "https://wa.me/201279541133",
                             ),
-                            color: const Color(0xff34CB62),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                const Icon(
-                                  FontAwesomeIcons.whatsapp,
-                                  color: Colors.white,
-                                ),
-                                Space.x!,
-                                Text(
-                                  'WhatsApp',
-                                  style: AppText.l1!.copyWith(
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          Space.y1!,
-                          MaterialButton(
-                            height: 40.0,
-                            onPressed: () => openURL(
-                              'https://www.upwork.com/freelancers/~0197b0f6aaeba9675f',
-                            ),
-                            color: const Color(0xff13A800),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Image.network(
-                                  'https://img.icons8.com/ios-filled/50/000000/upwork.png',
-                                  height: 35.0,
-                                  color: Colors.white,
-                                ),
-                                Space.x!,
-                                Text(
-                                  'Upwork',
-                                  style: AppText.l1!.copyWith(
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
-                      ),
-                    )),
+            // showDialog(
+            //     context: context,
+            //     builder: (contecxt) => AlertDialog(
+            //           title: Text(
+            //             "Hire Us!",
+            //             style: AppText.b2b,
+            //           ),
+            //           actions: [
+            //             TextButton(
+            //               onPressed: () =>  openURL(
+            //                   "https://wa.me/201279541133",
+            //                 ),
+            //               child: const Text("Back"),
+            //             )
+            //           ],
+            //           // content: Column(
+            //           //   mainAxisSize: MainAxisSize.min,
+            //           //   mainAxisAlignment: MainAxisAlignment.center,
+            //           //   children: [
+            //           //     MaterialButton(
+            //           //       height: 40.0,
+            //           //       onPressed: () => openURL(
+            //           //         "https://wa.me/201279541133",
+            //           //       ),
+            //           //       color: const Color(0xff34CB62),
+            //           //       child: Row(
+            //           //         mainAxisSize: MainAxisSize.min,
+            //           //         children: [
+            //           //           const Icon(
+            //           //             FontAwesomeIcons.whatsapp,
+            //           //             color: Colors.white,
+            //           //           ),
+            //           //           Space.x!,
+            //           //           Text(
+            //           //             'WhatsApp',
+            //           //             style: AppText.l1!.copyWith(
+            //           //               color: Colors.white,
+            //           //             ),
+            //           //           ),
+            //           //         ],
+            //           //       ),
+            //           //     ),
+            //           //     Space.y1!,
+            //           //     // MaterialButton(
+            //           //     //   height: 40.0,
+            //           //     //   onPressed: () => openURL(
+            //           //     //     'https://www.upwork.com/freelancers/~0197b0f6aaeba9675f',
+            //           //     //   ),
+            //           //     //   color: const Color(0xff13A800),
+            //           //     //   child: Row(
+            //           //     //     mainAxisSize: MainAxisSize.min,
+            //           //     //     children: [
+            //           //     //       Image.network(
+            //           //     //         'https://img.icons8.com/ios-filled/50/000000/upwork.png',
+            //           //     //         height: 35.0,
+            //           //     //         color: Colors.white,
+            //           //     //       ),
+            //           //     //       Space.x!,
+            //           //     //       Text(
+            //           //     //         'Upwork',
+            //           //     //         style: AppText.l1!.copyWith(
+            //           //     //           color: Colors.white,
+            //           //     //         ),
+            //           //     //       ),
+            //           //     //     ],
+            //           //     //   ),
+            //           //     // ),
+            //           //   ],
+            //           // ),
+            //         )),
             child: Text(
-              'HIRE ME!',
+              'HIRE US!',
               style: AppText.b2!.copyWith(
                 color: Colors.white,
               ),

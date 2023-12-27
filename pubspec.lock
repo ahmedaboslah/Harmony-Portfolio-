@@ -179,6 +179,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_vector_icons:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: "v3.0.0"
+      resolved-ref: "364f724521c2dc580ee66c1e653329a2bac38e89"
+      url: "https://github.com/victoreronmosele/flutter-vector-icons.git"
+    source: git
+    version: "3.0.0"
   flutter_web_plugins:
     dependency: transitive
     description: flutter

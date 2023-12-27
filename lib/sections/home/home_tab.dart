@@ -15,7 +15,7 @@ class HomeTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-  final appProvider=Provider.of<AppProvider>(context);
+    final appProvider = Provider.of<AppProvider>(context);
     return SizedBox(
       height: size.height * 1.02,
       child: Stack(
@@ -30,8 +30,9 @@ class HomeTab extends StatelessWidget {
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
-                  appProvider.isDark?
-                  StaticUtils.whitePhoto:StaticUtils.blackPhoto,
+                  appProvider.isDark
+                      ? StaticUtils.whitePhoto
+                      : StaticUtils.blackPhoto,
                   height: size.width < 1200
                       ? size.height * 0.75
                       : size.height * 0.85,
@@ -95,7 +96,12 @@ class HomeTab extends StatelessWidget {
                       ),
                       AnimatedTextKit(
                         animatedTexts: [
-                           TyperAnimatedText(
+                          TyperAnimatedText(
+                            ' UI/UX Designers',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          TyperAnimatedText(
                             'Mobile Application',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
@@ -106,17 +112,18 @@ class HomeTab extends StatelessWidget {
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' UI/UX Designers',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            'Logo Design',
+                            'desktop Application',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
                             'Software Service',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+              
+                          TyperAnimatedText(
+                            'Logo Design',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),

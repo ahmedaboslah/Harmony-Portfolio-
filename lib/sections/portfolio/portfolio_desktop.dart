@@ -21,10 +21,10 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: "\nPortfolio",
+            text: "\nProjects",
           ),
           const CustomSectionSubHeading(
-            text: "Here are few samples of my previous work :)\n\n",
+            text: "Here are few samples of our previous work :)\n\n",
           ),
           Wrap(
             alignment: WrapAlignment.center,

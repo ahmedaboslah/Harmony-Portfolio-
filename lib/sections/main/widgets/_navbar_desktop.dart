@@ -45,26 +45,29 @@ class _NavBarTablet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final drawerProvider = Provider.of<DrawerProvider>(context);
-
-    return Padding(
-      padding: Space.v!,
-      child: Row(
-        children: [
-          Space.x1!,
-          IconButton(
-            highlightColor: Colors.white54,
-            splashRadius: AppDimensions.normalize(10),
-            onPressed: () {
-              drawerProvider.key.currentState!.openDrawer();
-            },
-            icon: const Icon(
-              Icons.menu,
+    final appProvider=Provider.of<AppProvider>(context);
+    return Container(
+      color: appProvider.isDark?Colors.black:Colors.white,
+      child: Padding(
+        padding: Space.v!,
+        child: Row(
+          children: [
+            Space.x1!,
+            IconButton(
+              highlightColor: Colors.white54,
+              splashRadius: AppDimensions.normalize(10),
+              onPressed: () {
+                drawerProvider.key.currentState!.openDrawer();
+              },
+              icon: const Icon(
+                Icons.menu,
+              ),
             ),
-          ),
-          Space.xm!,
-          const NavBarLogo(),
-          Space.x1!,
-        ],
+            Space.xm!,
+            const NavBarLogo(),
+            Space.x1!,
+          ],
+        ),
       ),
     );
   }

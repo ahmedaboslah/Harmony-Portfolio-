@@ -82,6 +82,11 @@ class HomeMobile extends StatelessWidget {
                     AnimatedTextKit(
                       animatedTexts: [
                         TyperAnimatedText(
+                            ' UI/UX Designers',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          TyperAnimatedText(
                             'Mobile Application',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
@@ -92,12 +97,7 @@ class HomeMobile extends StatelessWidget {
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' UI/UX Designers',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            'Logo Design',
+                            'desktop Application',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
@@ -106,6 +106,13 @@ class HomeMobile extends StatelessWidget {
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
+                          
+                          TyperAnimatedText(
+                            'Logo Design',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          
                           TyperAnimatedText(
                             'A Friend',
                             speed: const Duration(milliseconds: 50),

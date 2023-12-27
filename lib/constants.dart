@@ -7,10 +7,10 @@ void openURL(String url) => launchUrl(
 
 // Tools & Tech
 final kTools = [
- "Mobile Application",
+  "UI/UX & Logo Design",
+  "Mobile Application",
   "Web Application",
-  "UI/UX Design",
-  "Software System",
+  "Desktop Application",
 ];
-final String portifoliFirstName='Harmony';
-final String portifoliSecondName='Invention';
+final String portifoliFirstName = 'Harmony';
+final String portifoliSecondName = 'Invention';
