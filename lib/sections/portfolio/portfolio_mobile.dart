@@ -50,7 +50,7 @@ class PortfolioMobileTab extends StatelessWidget {
             onPressed: () => openURL(StaticUtils.gitHub),
             child: Text(
               'See More',
-              style: AppText.l1b,
+              style: AppText.l1b?.copyWith(color:Color.fromARGB(255, 9, 241, 102)),
             ),
           ),
         )

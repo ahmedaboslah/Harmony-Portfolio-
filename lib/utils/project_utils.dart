@@ -5,8 +5,8 @@ class ProjectUtils {
   ];
 
   static const List<String> icons = [
-    "assets/projects/flutter.png",
-    "assets/projects/quran.png",
+    "assets/projects/schoollogo.jpeg",
+    "assets/projects/Foodlogo.jpeg",
   ];
 
   static const List<String> titles = [

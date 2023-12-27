@@ -16,6 +16,6 @@ class ContactUtils {
   static const List<String> details = [
     "Hurghada, Egypt",
     "(+20) 1279541133",
-    "harmonyflowsoftware@gmail.com",
+    "harrmonyflowsoftware@gmail.com",
   ];
 }

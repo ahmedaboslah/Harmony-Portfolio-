@@ -36,7 +36,7 @@ class StaticUtils {
     "https://img.icons8.com/android/480/ffffff/twitter.png",
     "https://img.icons8.com/metro/308/ffffff/linkedin.png",
     "https://img.icons8.com/ios-glyphs/400/whatsapp--v1.png",
-    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da5056e3-da67-4ecb-a7f0-9dfba254e40e/ddpribr-f16837f3-2840-406c-906e-90c2ae875d5e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RhNTA1NmUzLWRhNjctNGVjYi1hN2YwLTlkZmJhMjU0ZTQwZVwvZGRwcmlici1mMTY4MzdmMy0yODQwLTQwNmMtOTA2ZS05MGMyYWU4NzVkNWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Cv1o28OmnSBUErr8VvRgvSYUrat1YFjdbVHUdOO8SLA",
+    "https://img.icons8.com/ios-filled/50/gmail-new.png",
 
   ];
 
@@ -46,13 +46,11 @@ class StaticUtils {
     "https://x.com/HarmonyInve?t=DZoGE9H2oYHqbGyqLGkQ9Q&s=09",
     "https://www.linkedin.com/company/harmony-flow-solution/",
     "https://wa.me/201279541133",
-    "https://harmonyflowsoftware@gmail.com",
+    "https://harrmonyflowsoftware@gmail.com",
   ];
 
-  static const String resume =
-      '';
 
-  static const String gitHub = 'https://github.com/harmonyinvention';
+  static const String gitHub = 'https://github.com/harrmonyinvention';
 }
 
 class BodyUtils {
